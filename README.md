@@ -43,7 +43,7 @@ Pada interface FastEthernet1/1 yang tersambung dengan Router Water7 (Subnet A2) 
 
 **3. Routing** 
 
-Melakukan konfigurasi static di tiap router agar menghasilkan seperti dibawah ini:
+Melakukan konfigurasi static di tiap router agar menghasilkan seperti dibawah ini:<br>
 **Foosha**
 ```
 10.22.8.0/22 via 10.22.0.2
