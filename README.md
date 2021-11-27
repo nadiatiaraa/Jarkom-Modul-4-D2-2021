@@ -16,28 +16,27 @@ Melakukan subnetting seperti pada gambar berikut
 
 <img width="737" alt="Screen Shot 2021-11-27 at 18 12 39" src="https://user-images.githubusercontent.com/72669398/143678833-b14ddbca-bc64-4cda-a615-3907b366821c.png">
 
-Setelah dikelompokkan menjadi beberapa subnet, dapat dilakukan pembagian IP
+Setelah dikelompokkan menjadi beberapa subnet, dapat dilakukan pembagian IP<br>
 
 <img width="492" alt="Screen Shot 2021-11-27 at 18 38 25" src="https://user-images.githubusercontent.com/72669398/143679612-33a6953c-b635-414d-9a7a-e04a70694ebe.png">
 
-Dimana NID dan broadcast addressnya dapat dicari menggunakan tree sebagai berikut
+Dimana NID dan broadcast addressnya dapat dicari menggunakan tree sebagai berikut<br>
 
 <img width="890" alt="Screen Shot 2021-11-27 at 18 39 40" src="https://user-images.githubusercontent.com/72669398/143679922-57d1e4d6-67e5-478a-9768-0be8b3beb3ed.png">
 
 Kemudian lakukan konfigurasi pada setiap device sesuai pembagian subnet. Contohnya pada router Foosha. Router Foosha terhubung dengan 5 device lain yaitu Cloud, Server Doriki, Client Blueno, Router Water7, Router Guanhao.
 
-Pada interface FastEthernet0/1 yang tersambung dengan Client Blueno (Subnet A1) sehingga dimasukkan IP dan Netmask dari Subnet A1 dengan IP ditambah 0.0.0.1 sebagai berikut:
+Pada interface FastEthernet0/1 yang tersambung dengan Client Blueno (Subnet A1) sehingga dimasukkan IP dan Netmask dari Subnet A1 dengan IP ditambah 0.0.0.1 sebagai berikut:<br>
 
 <img width="558" alt="Screen Shot 2021-11-27 at 18 39 52" src="https://user-images.githubusercontent.com/72669398/143679940-389a9744-f180-4868-a2fc-be8cbf3ab347.png">
 
-Pada interface FastEthernet0/3/0 yang tersambung dengan Router Guanhao (Subnet A7) sehingga dimasukkan IP dan Netmask dari Subnet A7 dengan IP ditambah 0.0.0.1 sebagai berikut:
+Pada interface FastEthernet0/3/0 yang tersambung dengan Router Guanhao (Subnet A7) sehingga dimasukkan IP dan Netmask dari Subnet A7 dengan IP ditambah 0.0.0.1 sebagai berikut:<br>
 <img width="614" alt="Screen Shot 2021-11-27 at 18 40 12" src="https://user-images.githubusercontent.com/72669398/143679946-1db77dfd-7a17-4d56-a6a4-dcb3d8a64965.png">
 
-Pada interface FastEthernet1/0 yang tersambung dengan Server Doriki (Subnet A14) sehingga dimasukkan IP dan Netmask dari Subnet A14 dengan IP ditambah 0.0.0.1 sebagai berikut:
-
+Pada interface FastEthernet1/0 yang tersambung dengan Server Doriki (Subnet A14) sehingga dimasukkan IP dan Netmask dari Subnet A14 dengan IP ditambah 0.0.0.1 sebagai berikut:<br>
 <img width="610" alt="Screen Shot 2021-11-27 at 18 40 28" src="https://user-images.githubusercontent.com/72669398/143679948-ce9e05d3-af75-467d-b84b-cbb3a4de998d.png">
 
-Pada interface FastEthernet1/1 yang tersambung dengan Router Water7 (Subnet A2) sehingga dimasukkan IP dan Netmask dari Subnet A2 dengan IP ditambah 0.0.0.1 sebagai berikut:
+Pada interface FastEthernet1/1 yang tersambung dengan Router Water7 (Subnet A2) sehingga dimasukkan IP dan Netmask dari Subnet A2 dengan IP ditambah 0.0.0.1 sebagai berikut:<br>
 
 <img width="609" alt="Screen Shot 2021-11-27 at 18 40 39" src="https://user-images.githubusercontent.com/72669398/143679952-d8806618-a0bd-4b29-be6e-44215a2627c0.png">
 
