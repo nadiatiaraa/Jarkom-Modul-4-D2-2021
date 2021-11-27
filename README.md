@@ -17,3 +17,5 @@ Melakukan subnetting seperti pada gambar berikut
 
 Setelah dikelompokkan menjadi beberapa subnet, dapat dilakukan pembagian IP
 
+<img width="492" alt="Screen Shot 2021-11-27 at 18 38 25" src="https://user-images.githubusercontent.com/72669398/143679612-33a6953c-b635-414d-9a7a-e04a70694ebe.png">
+
