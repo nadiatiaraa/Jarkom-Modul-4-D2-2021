@@ -98,7 +98,8 @@ Seastone
 
 <img width="705" alt="Screen Shot 2021-11-27 at 18 41 03" src="https://user-images.githubusercontent.com/72669398/143679954-9b059e74-a055-4f2d-8aac-15029b15f4c1.png">
 
-**2. Subnetting** /
+**2. Subnetting** 
+
 Melakukan labelling netmask terhadap masing-masing subnet yang tahap-tahapnya sebagai berikut :
 
 <img width="862" alt="Screen Shot 2021-11-27 at 18 41 34" src="https://user-images.githubusercontent.com/72669398/143679955-bd4b67fd-5a1d-4e74-bc49-b9c96d90c1af.png">
