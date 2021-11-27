@@ -31,7 +31,6 @@ Pada interface FastEthernet0/1 yang tersambung dengan Client Blueno (Subnet A1) 
 <img width="558" alt="Screen Shot 2021-11-27 at 18 39 52" src="https://user-images.githubusercontent.com/72669398/143679940-389a9744-f180-4868-a2fc-be8cbf3ab347.png">
 
 Pada interface FastEthernet0/3/0 yang tersambung dengan Router Guanhao (Subnet A7) sehingga dimasukkan IP dan Netmask dari Subnet A7 dengan IP ditambah 0.0.0.1 sebagai berikut:
-
 <img width="614" alt="Screen Shot 2021-11-27 at 18 40 12" src="https://user-images.githubusercontent.com/72669398/143679946-1db77dfd-7a17-4d56-a6a4-dcb3d8a64965.png">
 
 Pada interface FastEthernet1/0 yang tersambung dengan Server Doriki (Subnet A14) sehingga dimasukkan IP dan Netmask dari Subnet A14 dengan IP ditambah 0.0.0.1 sebagai berikut:
