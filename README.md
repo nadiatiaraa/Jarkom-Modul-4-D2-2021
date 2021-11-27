@@ -6,11 +6,11 @@
 - Nadia Tiara Febriana (05111940000217)
 
 # VLSM
-1. Membuat Topologi
+**1. Membuat Topologi**
 
 <img width="723" alt="Screen Shot 2021-11-27 at 18 12 04" src="https://user-images.githubusercontent.com/72669398/143678815-18211e25-fb21-4e4e-a750-5948e822f6be.png">
 
-2. Subnetting
+**2. Subnetting / **
 Melakukan subnetting seperti pada gambar berikut
 
 <img width="737" alt="Screen Shot 2021-11-27 at 18 12 39" src="https://user-images.githubusercontent.com/72669398/143678833-b14ddbca-bc64-4cda-a615-3907b366821c.png">
@@ -41,7 +41,7 @@ Pada interface FastEthernet1/1 yang tersambung dengan Router Water7 (Subnet A2) 
 
 <img width="609" alt="Screen Shot 2021-11-27 at 18 40 39" src="https://user-images.githubusercontent.com/72669398/143679952-d8806618-a0bd-4b29-be6e-44215a2627c0.png">
 
-3. Routing
+**3. Routing** /
 Melakukan konfigurasi static di tiap router agar menghasilkan seperti dibawah ini:
 ```
 Foosha
@@ -92,11 +92,11 @@ Seastone
 ```
 
 # CIDR
-1. Membuat Topologi
+**1. Membuat Topologi**
 
 <img width="705" alt="Screen Shot 2021-11-27 at 18 41 03" src="https://user-images.githubusercontent.com/72669398/143679954-9b059e74-a055-4f2d-8aac-15029b15f4c1.png">
 
-2. Subnetting
+**2. Subnetting** /
 Melakukan labelling netmask terhadap masing-masing subnet yang tahap-tahapnya sebagai berikut :
 
 <img width="862" alt="Screen Shot 2021-11-27 at 18 41 34" src="https://user-images.githubusercontent.com/72669398/143679955-bd4b67fd-5a1d-4e74-bc49-b9c96d90c1af.png">
@@ -123,5 +123,5 @@ Kemudian hitung pembagian IP dengan pohon berdasarkan penggabungan subnet yang t
 
 <img width="532" alt="Screen Shot 2021-11-27 at 18 43 39" src="https://user-images.githubusercontent.com/72669398/143680002-c98d26e9-16b0-44c7-aae4-6dd16e1ed883.png">
 
-3. Routing
-4. Testing
+**3. Routing**
+**4. Testing**
