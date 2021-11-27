@@ -44,8 +44,8 @@ Pada interface FastEthernet1/1 yang tersambung dengan Router Water7 (Subnet A2) 
 **3. Routing** 
 
 Melakukan konfigurasi static di tiap router agar menghasilkan seperti dibawah ini:
+**Foosha**
 ```
-Foosha
 10.22.8.0/22 via 10.22.0.2
 10.22.24.0/21 via 10.22.0.2
 10.22.0.128/25 via 10.22.0.2
@@ -58,37 +58,35 @@ Foosha
 10.22.0.36/30 via 10.22.0.10
 10.22.0.12/30 via 10.22.0.10
 ```
-
+**Water7**
 ```
-Water7
 0.0.0.0/0 via 10.22.0.1
 10.22.0.128/25 via 10.22.0.6
 10.22.24.0/21 via 10.22.0.6
 ```
-
+**Pucci**
 ```
-Pucci
 0.0.0.0/0 via 10.22.0.5
 ```
+**Guanhao**
 ```
-Guanhao
 0.0.0.0/0 via 10.22.0.9
 10.22.0.16/28 via 10.22.2.3
 10.22.1.0/24 via 10.22.0.14
 10.22.16.0/22 via 10.22.0.14
 10.22.0.36/30 via 10.22.0.14
 ```
+**Alabasta**
 ```
-Alabasta
 0.0.0.0/0 via 10.22.2.1
 ```
+**Oimo**
 ```
-Oimo
 0.0.0.0/0 via 10.22.0.13
 10.22.16.0/22 via 10.22.1.3
 ```
+**Seastone**
 ```
-Seastone
 0.0.0.0/0 via 10.22.1.1
 ```
 
@@ -125,5 +123,5 @@ Kemudian hitung pembagian IP dengan pohon berdasarkan penggabungan subnet yang t
 
 <img width="532" alt="Screen Shot 2021-11-27 at 18 43 39" src="https://user-images.githubusercontent.com/72669398/143680002-c98d26e9-16b0-44c7-aae4-6dd16e1ed883.png">
 
-**3. Routing**
+**3. Routing**<br>
 **4. Testing**
